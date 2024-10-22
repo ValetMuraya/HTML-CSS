@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nutrition Label</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title" >freeCodeCamp Survey Form</h1>
+  <p id="description" ><em>Thank you for taking the time to help us improve the platform</em> </p>
+
+  <form id="survey-form">
+
+      <label id="name-label">Name
+      <input type="text" placeholder="Enter your name" id="name" required>
+      </label>
+
+      <label id="email-label">Email
+        <input type="email" placeholder="Enter your email" id="email" required>
+        </label>
+
+        <label id="number-label">Age <span class="looks">(optional)</span>
+          <input type="number" placeholder="Age" min="13" max="120" id="number">
+        </label>
+
+        <p class="padded-words">Which option best describes your current role?</p>
+        <label>
+          <select id="dropdown">
+            <option>(select an option)</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to say</option>
+            <option>Other</option>
+          </select>
+        </label>
+        
+
+        <p class="padded-words">Would you recommend freeCodeCamp to a friend?</p>
+        <label>
+          <input type="radio" name="option" value="Definitely">Definitely
+        </label>
+
+        <label>
+          <input type="radio" name="option" value="Maybe">Maybe
+        </label>
+
+        <label>
+          <input type="radio" name="option" value="Not sure">Not sure
+        </label>
+    </fieldset>
+    
+    <hr class="divider">
+
+        <p class="padded-words">What is your favorite feature of freeCodeCamp?</p>
+          <label>
+          <select id="dropdown">
+            <option>(select an option)</option>
+            <option>Challenges</option>
+            <option>Projects</option>
+            <option>Community</option>
+            <option>Open Source</option>
+          </select>
+        </label>
+        
+
+        <p class="padded-words">What would you like to see improved? <span class="looks">(Check all that apply)</span></p>
+
+        <label>
+          <input type="checkbox" name="Front-end Projects" value="Front-end Projects">Front-end Projects
+        </label>
+
+        <label>
+          <input type="checkbox" name="Back-end Projects" value="Back-end Projects">Back-end Projects
+        </label>
+
+        <label>
+          <input type="checkbox" name="Data Visualization" value="Data Visualization">Data Visualization
+        </label>
+
+        <label>
+          <input type="checkbox" name="Challenges" value="Challenges">Challenges
+        </label>
+
+        <label>
+          <input type="checkbox" name="Open Source Community" value="Open Source Community">Open Source Community
+        </label>
+
+        <label>
+          <input type="checkbox" name="Gitter help rooms" value="Gitter help rooms">Gitter help rooms
+        </label>
+
+        <label>
+          <input type="checkbox" name="Videos" value="Videos">Videos
+        </label>
+
+        <label>
+          <input type="checkbox" name="City Meetups" value="City Meetups">City Meetups
+        </label>
+
+        <label>
+          <input type="checkbox" name="Wiki" value="Wiki">Wiki
+        </label>
+
+        <label>
+          <input type="checkbox" name="Forum" value="Forum">Forum
+        </label>
+
+        <label>
+          <input type="checkbox" name="Additional Course" value="Additional Courses">
+Additional Courses
+        </label>
+
+<hr class="divider">
+        <p class="padded-words">Any comments or suggestions?</p>
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <button type="submit" id="submit"> Submit
+
+
+          
+
+
+
+</body>
+</html>
